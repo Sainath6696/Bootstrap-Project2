@@ -1,0 +1,267 @@
+.header .btn{
+  border-radius: 20px;
+  border: 2px solid  #47b2e4;
+
+}
+.header .btn:hover{
+  background-color: #47b2e4;
+}
+.nav-link{
+  color: #ffff;
+}
+.dropdown:hover .dropdown-menu {
+  display:inline;
+}
+.col-6 a{
+    text-decoration: none;
+    float: left;
+}
+.col-6 button{
+    background-color:rgba(11, 131, 243, 0.849);
+}
+.Better h1{
+    padding-top: 50px;
+
+}
+.col-6 span{
+margin-left: 6px;
+}
+.animated{
+    animation: MoveUpDown 4s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 30px;
+    }
+  }
+  .animated2 {
+    width: 50%;
+
+      filter: gray;
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+    }
+   .animated2:hover{
+    display: inline-block;
+    font-size: medium;
+    animation: pulse;
+    animation-duration: 5s;
+    -webkit-filter: grayscale(0);
+    -moz-animation: scale(1.01);
+    filter: none;
+  }
+.iconify{
+    color:rgba(11, 131, 243, 0.849) ;
+}
+.accordion-button:hover{
+  color: #47b2e4;
+}
+.accordion-button span{
+  color: #47b2e4;
+}
+.why{
+  width: 100%;
+}
+
+.section-title h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+.section-title h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.architech{
+  padding: 10px 50px;
+}
+.skill{
+  width: 100%;
+}
+.progress{
+ margin: 2px 0px 25px 0px;
+}
+.progress1{
+  color: #37517e;
+}
+.card{
+  box-shadow: 0px 0px 50px 1px rgb(228, 224, 224);
+}
+
+
+.card h5{
+    text-decoration: none;
+  }
+.card {
+  transition: 0.3s;
+}
+.card:hover {
+  color: #47b2e4;
+  transform: translate(0, -15px);
+}
+.card p{
+color: black;
+}
+.call-button .btn:hover{
+  background-color:#47b2e4;
+  color: aliceblue;
+}
+.call-button .btn{
+  border-radius: 60px;
+  width: 170px;
+  margin: 50px 60px;
+
+}
+
+.animate__animated .animate__zoomIn{
+  --animate-duration: 5s;
+}
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 0.9s;
+}
+.rounded-circle{
+margin-right: 20px;
+}
+.team-icon a i{
+    height: 35px;
+    width: 35px;
+    background-color: #cacfd841;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 9px 11px;
+    color: #37517e;
+}
+.team-icon a i:hover{
+  color: #ffff;
+  background-color: #47b2e4;
+}
+.team .card-text1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #47b2e448;
+  left: 38.5%;
+  top: 40%;
+}
+
+.pricing .card:hover{
+  color: #47b2e4;
+  transform: translate(0, 0px);
+}
+.card-body p{
+  color: #999;
+}
+.pricing-btn .btn{
+  border-radius: 40px;
+  border: 2px solid  #47b2e4;
+}
+
+.card-title,h5{
+  color: #37517e;
+}
+
+.pricing-btn .btn:hover{
+  background-color: #47b2e4;
+  color: #ffff;
+}
+.pricing-btn1 .btn{
+  border-radius: 40px;
+  border: 2px solid  #47b2e4;
+}
+.pricing .card-text{
+  color: #47b2e4;
+}
+
+.address {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 20px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+  padding-bottom: 0px;
+}
+.address .location i {
+font-size: 20px;
+color: #47b2e4;
+float: left;
+width: 44px;
+height: 44px;
+background: #e7f5fb;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+}
+.address .user-info .user{
+height: 44px;
+width: 340px;
+margin: 6px 0px 45px 0px;
+}
+.address .btn{
+border-radius: 30px;
+align-items: center;
+padding: 10px 35px;
+}
+.message label{
+padding-bottom: 10px;
+}
+.address .btn:hover{
+background-color: #47b2e4;
+}
+.footer .row h3,h6{
+color: #2f5699;
+}
+.footer .useful a{
+text-decoration: none;
+color: rgba(46, 42, 42, 0.767);
+}
+footer .useful a i{
+color: #47b2e4;
+
+}
+.social-media a i{
+margin: 0px 50px;
+}
+.footer .facebook a i{
+height: 35px;
+width: 35px;
+background-color: #47b2e4;
+border-radius: 50%;
+display: inline-block;
+padding: 9px 11px;
+color: #fff;
+}
+.footer .facebook a i:hover{
+color: #47b2e4;
+background-color:#fff ;
+}
